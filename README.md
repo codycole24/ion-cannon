@@ -1,206 +1,100 @@
 # Sandbox
 
-> A physics-driven PC sandbox inspired by games like BONELAB, built around experimentation, interaction, and doing things the game probably wasn't designed for.
+A small experimental physics sandbox for PC.
+
+> A tiny project focused on messing around with physics, objects, and basic interactions.
 
 ## About
 
-**Sandbox** is a PC sandbox game where you can freely experiment with physics, objects, weapons, vehicles, tools, and environments.
+**Sandbox** is a very small PC sandbox game inspired by physics-based games like BONELAB.
 
-There are no strict objectives. Spawn something, build something, break something, or just see what happens.
+The game is currently extremely early in development. There isn't much to do yet, and most systems are still prototypes.
 
-The game focuses heavily on **physics-based interaction** and giving the player as much freedom as possible.
+The current goal is simply to get a basic physics sandbox working.
 
-## Features
+## Current Features
 
-* Physics-based environments
-* Pick up, throw, stack, and manipulate objects
-* Spawn objects and tools
-* Drive vehicles
-* Build your own contraptions
-* Interactive environments
-* Destructible and movable objects
-* Weapons and physics experiments
-* Large sandbox maps
-* Full mouse and keyboard support
-* Mod-friendly architecture
-* No predefined way to play
+Right now, the game has:
 
-## Gameplay
+* Basic player movement
+* Basic physics
+* A small test room
+* A few physics objects
+* Picking up and throwing objects
+* Basic object spawning
 
-The core idea is simple:
-
-**Spawn something → interact with it → experiment → cause problems.**
-
-You can use objects normally, combine them in weird ways, or completely ignore what they were intended for.
-
-For example:
-
-* Build a tower out of physics objects
-* Launch objects across the map
-* Create complicated machines
-* Test how different objects interact
-* Use vehicles to cause destruction
-* Set up your own experiments
-* Make completely unnecessary contraptions
+That's about it.
 
 ## Controls
 
-| Key           | Action                     |
-| ------------- | -------------------------- |
-| `W A S D`     | Move                       |
-| `Mouse`       | Look                       |
-| `Left Click`  | Primary interaction        |
-| `Right Click` | Secondary interaction      |
-| `E`           | Interact                   |
-| `R`           | Reload / Reset held object |
-| `F`           | Toggle flashlight          |
-| `Tab`         | Spawn menu                 |
-| `Esc`         | Pause                      |
+| Key          | Action          |
+| ------------ | --------------- |
+| `W A S D`    | Move            |
+| `Mouse`      | Look            |
+| `Left Click` | Grab / interact |
+| `E`          | Interact        |
+| `Tab`        | Spawn menu      |
+| `Esc`        | Pause           |
 
-> Controls may change during development.
+## Current Map
 
-## Physics
+There is currently **one small test room**.
 
-Physics is one of the main parts of the game.
+It contains a few platforms and physics objects for testing.
 
-Objects have their own physical properties such as:
+More maps may be added later.
 
-* Mass
-* Friction
-* Bounciness
-* Collision
-* Gravity
-* Velocity
-* Angular velocity
+## Development
 
-Objects can collide with each other, be pushed around, stacked, thrown, attached, and manipulated.
+This project is currently a **very early prototype**.
 
-## Sandbox Tools
+Most of the game is unfinished and exists mainly to test whether individual systems work.
 
-The sandbox contains a variety of tools for experimenting with the environment.
+Current development is focused on:
 
-### Object Spawner
+* Player movement
+* Physics interaction
+* Object spawning
+* Basic sandbox tools
 
-Spawn objects directly into the world.
+## Planned
 
-### Physics Gun
+Eventually, the game may have:
 
-Grab and manipulate objects from a distance.
-
-### Builder
-
-Create structures using different physical pieces.
-
-### Tool Gun
-
-Interact with objects and modify their properties.
-
-### Vehicle Tools
-
-Spawn and control different vehicles.
-
-## Maps
-
-The game includes multiple sandbox environments.
-
-### Test Chamber
-
-A basic physics testing area containing ramps, platforms, walls, and various interactive objects.
-
-### Warehouse
-
-A large indoor environment filled with objects that can be moved, stacked, and experimented with.
-
-### Construction Site
-
-An unfinished construction area designed for larger physics experiments and vehicle testing.
-
-More maps can be added through mods.
-
-## Modding
-
-The game is designed with modding in mind.
-
-Mods can potentially add:
-
-* Maps
-* Objects
-* Weapons
+* More objects
+* More tools
 * Vehicles
-* Tools
-* Materials
-* Gameplay systems
-* Custom sandbox experiments
+* More maps
+* Better physics
+* Destruction
+* Modding
 
-A future modding SDK may provide additional tools for creating custom content.
+These features are not currently implemented.
 
 ## System Requirements
 
 ### Minimum
 
-* **OS:** Windows 10 64-bit
-* **CPU:** Intel Core i5 / AMD Ryzen 5
-* **RAM:** 8 GB
-* **GPU:** GTX 1060 / RX 580
-* **Storage:** 10 GB available space
+* Windows 10 64-bit
+* 8 GB RAM
+* GTX 1060 / RX 580
+* 10 GB storage
 
 ### Recommended
 
-* **OS:** Windows 11 64-bit
-* **CPU:** Intel Core i7 / AMD Ryzen 7
-* **RAM:** 16 GB
-* **GPU:** RTX 2060 / RX 6600 XT
-* **Storage:** 15 GB available space
+* Windows 11 64-bit
+* 16 GB RAM
+* RTX 2060 / RX 6600
+* 10 GB storage
 
-## Development
+## Status
 
-This project is currently in development.
+**Very Early Development**
 
-Expect bugs, unfinished systems, placeholder assets, and physics behaving in ways that were probably not intended.
+This is currently a small prototype rather than a complete game.
 
-## Project Status
-
-**Status:** Early Development
-
-| System             | Status            |
-| ------------------ | ----------------- |
-| Player movement    | 🟡 In Development |
-| Physics            | 🟢 Working        |
-| Object interaction | 🟡 In Development |
-| Object spawning    | 🟡 In Development |
-| Vehicles           | 🔴 Planned        |
-| Modding            | 🔴 Planned        |
-| Custom maps        | 🟡 In Development |
-| Destruction        | 🔴 Planned        |
-
-## FAQ
-
-### Is this a VR game?
-
-No. **Sandbox is designed for PC**, with traditional mouse and keyboard controls.
-
-### Is there a story?
-
-No. The game is primarily a sandbox.
-
-### Is it multiplayer?
-
-Not currently.
-
-### Can I make my own maps?
-
-The game is intended to support custom maps through modding.
-
-### Is this related to BONELAB?
-
-No. Sandbox is an independent project inspired by the concept of physics-driven sandbox games.
+Expect bugs, missing features, placeholder assets, and things breaking frequently.
 
 ## License
 
-This project is currently not licensed for redistribution or commercial use.
-
-See the repository license for the full terms.
-
----
-
-**Experiment. Build. Break things.**
+No public license has been decided yet.
